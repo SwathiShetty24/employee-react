@@ -35,6 +35,7 @@ const App=()=> {
   return (
     <EmployeeContextProvider>
       <div>
+      <h1 className='heading'> Employee Dashboard </h1>
         <NewEmployee>
         <EmployeeForm/>
         </NewEmployee>
